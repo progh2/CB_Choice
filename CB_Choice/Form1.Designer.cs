@@ -28,13 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.cbList = new System.Windows.Forms.ComboBox();
+            this.txtList = new System.Windows.Forms.TextBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.lblResult = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // cbList
+            // 
+            resources.ApplyResources(this.cbList, "cbList");
+            this.cbList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbList.FormattingEnabled = true;
+            this.cbList.Name = "cbList";
+            // 
+            // txtList
+            // 
+            resources.ApplyResources(this.txtList, "txtList");
+            this.txtList.Name = "txtList";
+            // 
+            // btnAdd
+            // 
+            resources.ApplyResources(this.btnAdd, "btnAdd");
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // lblResult
+            // 
+            resources.ApplyResources(this.lblResult, "lblResult");
+            this.lblResult.Name = "lblResult";
+            // 
+            // Form1
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.txtList);
+            this.Controls.Add(this.cbList);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ComboBox cbList;
+        private System.Windows.Forms.TextBox txtList;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Label lblResult;
     }
 }
 
