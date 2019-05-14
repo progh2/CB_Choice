@@ -130,8 +130,8 @@
     <value>$this</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="cbList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="lblResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 74</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -254,6 +254,9 @@
   <data name="&gt;&gt;txtList.Name" xml:space="preserve">
     <value>txtList</value>
   </data>
+  <data name="cbList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
@@ -265,9 +268,6 @@
   </data>
   <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
-  </data>
-  <data name="lblResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 74</value>
   </data>
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>

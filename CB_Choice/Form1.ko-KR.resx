@@ -130,6 +130,9 @@
   <data name="btnAdd.Text" xml:space="preserve">
     <value>추가</value>
   </data>
+  <data name="lblResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 54</value>
+  </data>
   <data name="lblResult.Text" xml:space="preserve">
     <value>선택 결과 : </value>
   </data>

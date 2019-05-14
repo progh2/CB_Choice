@@ -40,6 +40,8 @@ namespace CB_Choice
             }
             else
             {
+                MessageBox.Show("아이템을 입력해주세요.", "알림",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 this.txtList.Focus();
             }
             this.txtList.Text = "";
